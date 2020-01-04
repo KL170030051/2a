@@ -1,4 +1,4 @@
-public class SwapNumbers {
+public class 2a {
     public static void main(String[] args) {
         float first = 1.20f, second = 2.45f;
         System.out.println("--Before swap--");
