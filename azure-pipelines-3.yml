@@ -1,5 +1,5 @@
 # Maven
-- task: CmdLine@2
+- task: CmdLine@1
   inputs:
     script: |
       javac 2a.java
