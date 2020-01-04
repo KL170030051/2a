@@ -15,8 +15,3 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: CmdLine@1
-  inputs:
-    script: |
-      javac 2a.java
-      java 2a
