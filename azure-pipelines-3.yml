@@ -1,5 +1,5 @@
 # Maven
-- task: CmdLine@1
+- task: CmdLine@2
   inputs:
     script: |
       javac 2a.java
@@ -15,7 +15,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: CmdLine@1
+- task: CmdLine@2
   inputs:
     script: |
       javac 2a.java
